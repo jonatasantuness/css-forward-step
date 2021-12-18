@@ -1,0 +1,17 @@
+#article {
+  float: left;
+  width: 80%;
+}
+
+#sidebar {
+  float: right;
+  width: 20%;
+}
+
+.l-fixed #article {
+  width: 600px;
+}
+
+.l-fixed #sidebar {
+  width: 200px;
+}

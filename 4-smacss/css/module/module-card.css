@@ -1,0 +1,11 @@
+.module-card {
+  background-color: #eee;
+}
+
+.module-card .module-card-title {
+  color: #222;
+}
+
+.module-card .module-card-summary {
+  display: block;
+}

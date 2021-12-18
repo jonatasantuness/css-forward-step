@@ -13,3 +13,12 @@ Eleve seu CSS ao próximo nível com CSSOO, SMACSS, BEM, Pré-processadores CSS,
 ### Seção 3 - CSSOO (CSS Orientado a Objeto)
 
 - [Princípios CSSOO](3-cssoo/principios-cssoo.md)
+
+### Seção 4 - SMACCS (Scalable and Modular Architecture for CSS)
+
+- [SMACCS](4-smacss/smacss.md)
+- [Base](4-smacss/base.md)
+- [Layout](4-smacss/layout.md)
+- [Module - Módulos](4-smacss/module.md)
+- [State - Estado](4-smacss/state.md)
+- [Theme - Tema](4-smacss/theme.md)
