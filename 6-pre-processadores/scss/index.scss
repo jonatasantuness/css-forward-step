@@ -1,0 +1,19 @@
+@import './aninhamento';
+@import './variaveis';
+@import './mixins';
+@import './extensao-heranca';
+
+.box-centered {
+  @include flex-centered(row);
+  @include size(200, 200);
+  @include rounded('top', 'left', 5px);
+  @include rounded('bottom', 'left');
+  border: 1px solid;
+  margin: 10px 0;
+}
+
+input {
+  @include input-placeholder {
+    color: red;
+  }
+}

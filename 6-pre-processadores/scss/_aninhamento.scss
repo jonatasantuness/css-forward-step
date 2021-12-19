@@ -1,0 +1,42 @@
+/* Aninhamento */
+
+// O aninhamento permite colocar uma regra dentro da outra, facilitando a escrita e a leitura do CSS. A referência ao ascendente pode ser feita utilizando o caractere "&", é muito utilizada para indicar que um :hover está sendo aplicado ao elemento.
+
+nav {
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  li {
+    display: inline-block;
+  }
+
+  a {
+    display: block;
+    padding: 6px 12px;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Por padrão o Sass tem uma ótima integração com o BEM, podemos utilizar o "&" para formar elementos com modificadores:
+
+.selector {
+  &__element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 100px;
+    background: #eee;
+  }
+
+  &--modifier {
+    border: 1px solid red;
+  }
+}

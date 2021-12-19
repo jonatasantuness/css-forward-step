@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* Aninhamento */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+.selector__element {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 100px;
+  background: #eee;
+}
+.selector--modifier {
+  border: 1px solid red;
+}
+
+/* Variáveis */
+body {
+  font-size: 14px;
+}
+
+a {
+  color: purple;
+}
+
+/* Mixins */
+/* Extensão */
+.default-box, .alert-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  border: 1px solid;
+  color: #333;
+}
+
+.alert-box {
+  background-color: yellow;
+  color: orangered;
+  font-weight: bold;
+}
+
+.strong-italic {
+  font-weight: bold;
+}
+
+.strong-italic {
+  font-style: italic;
+}
+
+.box-centered {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 200px;
+  height: 200px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid;
+  margin: 10px 0;
+}
+
+input.placeholder {
+  color: red;
+}
+input:-moz-placeholder {
+  color: red;
+}
+input::-moz-placeholder {
+  color: red;
+}
+input:-ms-input-placeholder {
+  color: red;
+}
+input::-webkit-input-placeholder {
+  color: red;
+}
+
+/*# sourceMappingURL=index.css.map */

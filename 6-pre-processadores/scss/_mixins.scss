@@ -1,0 +1,29 @@
+/* Mixins */
+
+// Os mixins são pedaço de códigos que permite agrupamento de regras CSS que podem ser reutilizados no código.
+
+@mixin flex-centered($direction: row) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: $direction;
+}
+
+@mixin size($width, $height) {
+  width: $width + px;
+  height: $height + px;
+}
+
+@mixin rounded($vert, $hor, $radius: 10px) {
+  border-#{$vert}-#{$hor}-radius: $radius;
+}
+
+// Com a diretiva @content podemos adicionar conteúdo dinamicamente dentro de um mixin, no exemplo abaixo temos um mixin para estilização de placeholder em inputs:
+
+@mixin input-placeholder {
+  &.placeholder { @content };
+  &:-moz-placeholder { @content };
+  &::-moz-placeholder { @content };
+  &:-ms-input-placeholder { @content };
+  &::-webkit-input-placeholder { @content };
+}

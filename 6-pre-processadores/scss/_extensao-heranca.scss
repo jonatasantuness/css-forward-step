@@ -1,0 +1,40 @@
+/* Extensão */
+
+// Podemos fazer a separação de caracteristicas comuns de características específicas com uso do @extend, no caso abaixo teremos uma classe para uma caixa comum, e outra classe com a extensão das propriedades da caixa comum, porém com seu estilo específico.
+
+.default-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  border: 1px solid;
+  color: #333;
+}
+
+
+.alert-box {
+  @extend .default-box;
+  background-color: yellow;
+  color: orangered;
+  font-weight: bold;
+}
+
+// Os placeholders são grupos de propriedades CSS que podem ser reutilizadas, através do prefixo % podemos criar novos placeholders, e sua principal vantagem e diferença em relação às extensões, é que os placeholders não são compilados em classes no CSS final, tornando o código ainda mais enxuto:
+
+%bold {
+  font-weight: bold;
+}
+
+%italic {
+  font-style: italic;
+}
+
+%text-center {
+  font-weight: bold;
+}
+
+.strong-italic {
+  @extend %bold, %italic;
+}

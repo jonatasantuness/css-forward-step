@@ -1,0 +1,12 @@
+/* Variáveis */
+
+$default-font-size: 14px;
+$main-color: purple;
+
+body {
+  font-size: $default-font-size;
+}
+
+a {
+  color: $main-color;
+}
