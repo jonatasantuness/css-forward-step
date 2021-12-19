@@ -22,3 +22,12 @@ Eleve seu CSS ao próximo nível com CSSOO, SMACSS, BEM, Pré-processadores CSS,
 - [Module - Módulos](4-smacss/module.md)
 - [State - Estado](4-smacss/state.md)
 - [Theme - Tema](4-smacss/theme.md)
+
+### Seção 5 - BEM
+
+- [BEM](5-bem/bem.md)
+- [Boas práticas do BEM](5-bem/boas-praticas-bem.md)
+
+### Seção 6 - Pré-processadores CSS
+
+- [Pré-processadores](6-pre-processadores/pre-processadores.md)
