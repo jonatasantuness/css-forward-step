@@ -31,3 +31,7 @@ Eleve seu CSS ao próximo nível com CSSOO, SMACSS, BEM, Pré-processadores CSS,
 ### Seção 6 - Pré-processadores CSS
 
 - [Pré-processadores](6-pre-processadores/pre-processadores.md)
+
+### Seção 7 - Namespaces
+
+- [Namespaces](7-namespaces/namespaces.md)
