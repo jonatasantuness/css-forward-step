@@ -35,3 +35,7 @@ Eleve seu CSS ao próximo nível com CSSOO, SMACSS, BEM, Pré-processadores CSS,
 ### Seção 7 - Namespaces
 
 - [Namespaces](7-namespaces/namespaces.md)
+
+### Seção 8 - Task Runners
+
+- [task Runners](8-task-runners/task-runners.md)
